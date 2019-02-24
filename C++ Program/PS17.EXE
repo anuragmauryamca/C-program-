@@ -1,0 +1,32 @@
+#include<iostream.h>
+#include<conio.h>
+class sum
+{
+int a,b;
+public:
+void getdata()
+{
+cout<<"enter the two number";
+cin>>a>>b;
+}
+void display()
+{
+int c,c1,c2,c3;
+c=a+b;
+c1=a-b;
+c2=a*b ;
+c3=a/b;
+cout<<c<<endl<<c1<<endl<<c2<<endl<<c3;
+}
+};
+main()
+{
+clrscr();
+sum obj_c;
+sum *obj_add=&obj_c;
+obj_add->getdata();
+obj_add->display();
+
+getch();
+return 0;
+}

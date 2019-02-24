@@ -1,0 +1,14 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int hh=00,mm=00,ss=00;
+for(ss=0;ss<=59;ss++)
+      {
+
+cout<<      hh<<":"<<mm<<":"<<ss<<":";
+
+}
+getch();
+}

@@ -1,0 +1,27 @@
+#include<iostream.h>
+#include<conio.h>
+class refrence
+{
+int a,b;
+public:
+void swap(int &a,int &b)
+{
+int c;
+c=a;
+a=b;
+b=c;
+}
+void display()
+{
+swap(a,b);
+cout<<a<<b;
+}
+};
+void main()
+{
+clrscr();
+refrence obj;
+obj.swap(12,17);
+obj.display();
+getch();
+}

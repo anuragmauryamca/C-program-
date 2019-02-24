@@ -1,0 +1,35 @@
+#include<iostream.h>
+#include<conio.h>
+class shahi
+{
+private:
+float n1;
+int n2;
+public:
+void read()
+{
+cout<<"enter the f value";
+cin>>n1;
+cout<<"enter s value";
+cin>>n2;
+}
+int max()
+{
+if(n1>n2)
+return n1 ;
+else
+return n2;
+}
+void showmax()
+{
+cout<<"maximum value is="<<max();
+}
+};
+void main()
+{
+clrscr();
+shahi b;
+b.read();
+b.showmax();
+getch();
+}
